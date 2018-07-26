@@ -1,3 +1,6 @@
+<?php
+$name = 'Georges';
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -5,10 +8,8 @@
     <title>Exercice 6</title>
   </head>
   <body>
-    <?php
-    $name = 'Georges';
-    settype($name, 'string');
-    ?>
-    <p><?php echo 'Bonjour '.$name.' comment vas-tu ?'; ?></p>
+    <p>
+      <?= 'Bonjour ' . $name . ' comment vas-tu ?'; ?>
+    </p>
   </body>
 </html>

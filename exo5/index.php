@@ -6,12 +6,15 @@
   </head>
   <body>
     <?php
-    $varInt = null;
-    settype($varInt, 'integer');
+      $varInt = null;
     ?>
-    <p><?php echo $varInt; ?></p>
+    <p>
+      <?php
+       echo $varInt;
+      ?>
+    </p>
     <?php
-     $varInt = 5;
+      $varInt = 5;
     ?>
     <p><?php echo $varInt; ?></p>
     </body>
