@@ -6,16 +6,25 @@
   </head>
   <body>
     <?php
-      $varInt = null;
+      // déclaration de la variable à NULL
+      $varInt = NULL;
+      // variable de type integer
+      settype($varInt, 'int');
     ?>
     <p>
       <?php
+      // affichage de la variable
        echo $varInt;
       ?>
     </p>
     <?php
+      // déclaration de la valeur de la variable à 5
       $varInt = 5;
-    ?>
-    <p><?php echo $varInt; ?></p>
-    </body>
+      ?>
+    <p>
+      <?php
+      echo $varInt;
+      ?>
+    </p>
+  </body>
 </html>

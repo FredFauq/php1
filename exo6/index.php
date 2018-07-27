@@ -11,5 +11,8 @@ $name = 'Georges';
     <p>
       <?= 'Bonjour ' . $name . ' comment vas-tu ?'; ?>
     </p>
+    <p>
+      Bonjour <?= $name; ?> comment vas-tu ?
+    </p>
   </body>
 </html>
